@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --color-black: #272a31;
+  --color-lgRed: #ec5242;
+  --color-white: #d3d3d3;
+}
+
+.mob-nav {
+  background-color: var(--color-black);
+}
+
+.open_btn,
+.close_btn,
+nav a {
+  color: var(--color-white);
+  font-size: 1.5rem;
+}
+
+.open_btn,
+.close_btn {
+  margin-left: 0.7rem;
+}
+
+.mob-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+  padding: 5% 2%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: left 0.4s ease-in-out;
+}
+
+.mob-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2.5rem;
+}
