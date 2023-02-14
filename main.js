@@ -29,7 +29,7 @@ const x = setInterval(() => {
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById('countdown').innerHTML = `${days}Days ${hours}Hours ${
+  document.getElementById('countdown').innerText = `${days}Days ${hours}Hours ${
     minutes}Mins ${seconds}Sec `;
   if (distance < 0) {
     clearInterval(x);
@@ -86,7 +86,6 @@ const speakersInfo = [
 
 function loadData() {
   const speakers = document.querySelector('.musicians');
-  speakers.innerHTML = '';
   speakersInfo.forEach((info) => {
     speakers.innerHTML += `
      <div class="speakers">
