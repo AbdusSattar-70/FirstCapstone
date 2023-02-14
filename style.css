@@ -159,8 +159,7 @@ nav a {
 }
 
 .container2,
-.border-3,
-footer {
+.border-3 {
   border: 1px solid var(--color-lgRed);
 }
 
@@ -188,6 +187,9 @@ footer {
 
 .card img {
   width: 12%;
+}
+#piano {
+  height: 75px;
 }
 
 .card h3 {
@@ -341,7 +343,7 @@ footer {
   align-items: center;
   width: 100%;
   gap: 1rem;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
   margin: 0 auto;
 }
 
@@ -354,7 +356,7 @@ footer {
 
 .footerLogo {
   width: 80%;
-  height: 15vh;
+  height: 12vh;
   display: flex;
   gap: 4%;
   align-items: center;
