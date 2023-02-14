@@ -121,7 +121,9 @@ nav a {
   background-color: rgba(39, 42, 49, 0.436);
   color: white;
   margin: 1% auto 0;
+  padding: 2%;
 }
+
 .descText {
   border: 2px solid rgba(255, 255, 255, 0.3);
   color: white;
@@ -135,7 +137,7 @@ nav a {
 .timePlace {
   color: white;
   border: 2px solid white;
-  padding-bottom: 2%;
+  padding: 2%;
   background-color: rgb(39, 42, 49, 0.5);
   animation: focusTime 0.2s infinite;
 }
@@ -339,7 +341,7 @@ footer {
   align-items: center;
   width: 100%;
   gap: 1rem;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin: 0 auto;
 }
 
@@ -370,4 +372,184 @@ footer {
 .footer p {
   color: #272a31;
   font-size: calc(1.2rem + ((1.2vw - 8px) * 0.6944));
+}
+
+/* about section start */
+
+.abt-header {
+  background: url("images/abt.jpeg");
+  background-color: rgba(211, 211, 211, 0.83);
+  background-blend-mode: hard-light;
+  background-size: 100% 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 2px solid white;
+  align-items: center;
+}
+
+.name_title_abt {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #d3d3d3;
+}
+
+.intro-text-abt {
+  font-size: 1.4em;
+  margin: 3%;
+  color: #fff;
+}
+
+.mn-title-abt {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 400;
+  font-size: calc(3.1rem + ((1.2vw - 8px) * 0.6944));
+  line-height: 4.3rem;
+  text-align: center;
+  color: #ec5242;
+  background-color: #d3d3d3;
+  margin: 0 auto;
+}
+
+.title_desc-abt {
+  color: #fff;
+  margin-top: 2%;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.desc-text-abt {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 3%;
+  font-size: 1.2rem;
+  text-align: justify;
+  background-color: rgba(236, 83, 66, 0.2);
+  border-radius: 6px;
+  margin: 2% 0;
+}
+
+.time_place-abt {
+  color: white;
+  justify-content: center;
+  border: 2px solid white;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 4.5rem;
+  background-color: rgb(39, 42, 49, 0.5);
+}
+
+.time_place-abt a {
+  font-size: 1rem;
+  color: var(--color-lgRed);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5%;
+  width: 75%;
+  text-align: center;
+}
+
+.logo h2 {
+  text-align: center;
+}
+
+.logo p {
+  text-align: center;
+  margin: 5% 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #272a31;
+}
+
+.bold_name {
+  color: #ec5242;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.logo img {
+  margin: 2% 0;
+  padding: 2% 0;
+  border: 1px solid rgb(230, 230, 230);
+  width: 30%;
+}
+
+.previous_sessions {
+  display: flex;
+  flex-direction: column;
+  padding: 0 7%;
+  text-align: center;
+}
+
+.previous_sessions p {
+  margin: 5% 3%;
+  color: #272a31;
+  font-size: 14px;
+}
+
+.session_photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.First_photo {
+  width: 80%;
+  height: 20vh;
+  background: url(images/bgPeaple.jpg);
+  background-color: rgba(236, 82, 66, 0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin: 3%;
+  transition: all 0.5s;
+}
+
+.Second_photo {
+  width: 80%;
+  height: 20vh;
+  background: url(images/bgsitting.jpg);
+  background-color: rgba(236, 82, 66, 0.927);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-position: 0;
+  margin: 3% 0 6% 0;
+  transition: all 0.5s;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pic h2 {
+  font-weight: 800;
+  color: white;
+}
+
+.pic p {
+  color: white;
+  font-size: calc(1.2rem + ((1.2vw - 7.8px) * 0.3));
+  width: 60%;
+  text-align: center;
+  margin: 2% auto 0;
+}
+
+.pic:hover {
+  box-shadow: none;
+  color: #ec5242;
+  background-blend-mode: hard-light;
+  font-weight: 700;
 }
