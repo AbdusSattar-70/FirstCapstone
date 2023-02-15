@@ -223,7 +223,7 @@ nav a {
 
 .partnerLogos img {
   margin: 0 2%;
-  filter: 
+  filter:
     invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
     brightness(150%) contrast(97%);
   width: 70%;
