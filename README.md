@@ -10,8 +10,9 @@
 </div>
 
 <div align="center">
-<h3><b>Mobible version screenshot</b></h3>
-<img src="" alt="screenshoot" width="500px"  height="400px"/>
+<h3><b>screenshot</b></h3>
+  <img src="images/sk1.png" alt="" width="500px">
+  <img src="images/sk2.png" alt="" width="500px">
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -42,6 +43,12 @@
 # 📖 [FirstCapstone] <a name="about-project"></a>
 
 **[FirstCapstone]** is a part of the learning purpose that I made to how to use html css and js best practices.
+**[Arcadia MusicFest-2023]** Musicfest is Arcadia Academy's largest event, giving our students the opportunity to experience the joy of
+performing in front of their peers, friends and family, albeit, online this year. This competition has
+been and will always be a culmination and testimony of excellent teaching, support, and encouragement.
+This year, Arcadia Academy of Music is bringing Musicfest back as an in-person event! For more than three
+decades, we've had our competition bring all our locations together to celebrate and showcase the best and
+brightest our.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,7 +58,9 @@
   <summary>Client</summary>
   <b>This project only works client side right now.</b>
   <ul>
-    <li>HTML, CSS and JS</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
   </ul>
 </details>
 
@@ -70,7 +79,7 @@
 
 ## 🚀 Live Demo and presentation video <a name="live-demo"></a>
 
-- [Presentation video Link]()
+- [Presentation video Link](https://www.loom.com/share/7d528a4ee1db40e7bb14eda9dcae25f2)
 - [Live Demo Link](https://abdussattar-70.github.io/FirstCapstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,16 +94,18 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 To know simple html, css, npm, and linter.
--A Computer (MAC or PC)
--code editor (VSCode,Atom etc...)
--A browser (Chrome,Mozilla,Safari etc...)
--Version Control System (Git and Github)
+
+- A Computer (MAC or PC)
+- code editor (VSCode,Atom etc...)
+- A browser (Chrome,Mozilla,Safari etc...)
+- Version Control System (Git and Github)
 
 ### Setup
 
 Clone this repository to your desired folder:
-cd my-folder
-git clone https://github.com/AbdusSattar-70/FirstCapstone.git
+
+- cd my-folder
+- git clone https://github.com/AbdusSattar-70/FirstCapstone.git
 
 ### Install
 
@@ -111,7 +122,7 @@ Install this project with:
 
 To run tests, run the following command:
 
-To check Styelint error:-
+- To check Styelint error:-
 
 - npm audit
 - npx stylelint "\*_/_.{css,scss}"
