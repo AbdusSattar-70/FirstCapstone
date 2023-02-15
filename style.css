@@ -65,7 +65,9 @@ nav a {
 }
 
 /* mobile menu end */
+
 /* headline/ .container1 start */
+
 .container1 {
   background-image: url("images/firstbg.jpg");
   background-color: rgba(236, 83, 66, 0.059);
@@ -100,9 +102,11 @@ nav a {
   0% {
     border: 0.5px solid var(--color-white);
   }
+
   50% {
     border: 0.5px dashed var(--color-lgRed);
   }
+
   100% {
     border: 0.5px solid var(--color-black);
   }
@@ -186,6 +190,7 @@ nav a {
 .card img {
   width: 12%;
 }
+
 #piano {
   height: 75px;
 }
@@ -216,6 +221,26 @@ nav a {
   animation: focusTime 0.3s infinite;
 }
 
+.partnerLogos img {
+  margin: 0 2%;
+  filter: invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
+    brightness(150%) contrast(97%);
+  width: 70%;
+}
+
+.logo img {
+  margin: 2% 0;
+  padding: 2% 0;
+  border: 1px solid rgb(230, 230, 230);
+  width: 30%;
+}
+
+.footerLogo img {
+  filter: none;
+  width: 20%;
+  margin: 2%;
+}
+
 .card img:hover {
   border: 1px solid var(--color-lgRed);
 }
@@ -226,6 +251,7 @@ nav a {
 }
 
 /* .container2 section end */
+
 /* .container3/feature section start */
 
 .container3 {
@@ -318,6 +344,7 @@ nav a {
 }
 
 /* .container3/feature section end */
+
 /* footer style start */
 
 .partners {
@@ -344,13 +371,6 @@ nav a {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.partnerLogos img {
-  margin: 0 2%;
-  filter: invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
-    brightness(150%) contrast(97%);
-  width: 70%;
-}
-
 .footerLogo {
   width: 80%;
   height: 12vh;
@@ -360,12 +380,6 @@ nav a {
   justify-content: space-between;
   margin: 0 auto;
   padding: 2%;
-}
-
-.footerLogo img {
-  filter: none;
-  width: 20%;
-  margin: 2%;
 }
 
 .footer p {
@@ -480,13 +494,6 @@ nav a {
   font-weight: 400;
 }
 
-.logo img {
-  margin: 2% 0;
-  padding: 2% 0;
-  border: 1px solid rgb(230, 230, 230);
-  width: 30%;
-}
-
 .pastSection {
   display: flex;
   flex-direction: column;
@@ -573,7 +580,9 @@ nav a {
 .desk_nav {
   display: none;
 }
+
 /* media quary for destop version 768px and wider screen  */
+
 @media (min-width: 768px) {
   .header {
     border: none;
@@ -636,8 +645,10 @@ nav a {
     font-size: 16px;
   }
 
-  .desktop-nav ul a:hover {
-    color: var(--color-lgRed);
+  .desktop-nav .active a {
+    color: #ec5242;
+    border-bottom: 1px solid #ec5242;
+    padding-bottom: 3px;
   }
 
   .desktop-nav .connect a {
@@ -651,15 +662,10 @@ nav a {
     0% {
       border: 3px solid var(--color-white);
     }
+
     100% {
       border: 3px solid var(--color-lgRed);
     }
-  }
-
-  .desktop-nav .active a {
-    color: #ec5242;
-    border-bottom: 1px solid #ec5242;
-    padding-bottom: 3px;
   }
 
   .top-nav li a:hover,
@@ -688,6 +694,7 @@ nav a {
     padding-bottom: 5%;
     margin-bottom: 10%;
     font-weight: 700;
+    color: var(--color-lgRed);
   }
 
   .desktop-nav .connect a:hover {
@@ -774,7 +781,7 @@ nav a {
   .card p {
     font-size: 0.9rem;
     margin-top: 5%;
-    text-align: revert;
+    text-align: unset;
   }
 
   .musicians {
