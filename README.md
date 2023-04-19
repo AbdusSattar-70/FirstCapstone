@@ -9,7 +9,7 @@
 <div align="center">
 <h3><b>Screenshot</b></h3>
 <img src="images/sk1.png" alt="" width="500px">
-<img src="images/screenshotp.png" alt="" width="500px">
+<img src="images/Screenshotp.png" alt="" width="500px">
 </div>
 
 <!-- TABLE OF CONTENTS -->
